@@ -1,11 +1,13 @@
 import wx
 
 def opener(event):
+    '定义事件'
     file=open(filename.GetValue())
     contents.SetValue(file.read())
     file.close()
 
 def save(event):
+    '定义事件'
     file=open(filename.GetValue(),'w')
     file.write(contents.GetValue())
     file.close()
