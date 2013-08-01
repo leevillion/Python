@@ -1,5 +1,5 @@
 ﻿def getline(file_path):
-    '获得行生成器'
+    '获得行生成器，在最后一行加入空行'
     f=open(file_path)
     for line in f.readlines():
         yield line
