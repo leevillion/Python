@@ -5,7 +5,7 @@
         yield line
     yield '\n'
 def getblock(file_path):
-    '去除空格'
+    '获得完整SQL语句'
     block=[]
     a=[]
     for i in getline(file_path):
