@@ -14,5 +14,5 @@
 from trans_gbk_to_utf_test import Trans_g_to_u
 
 t=Trans_g_to_u()
-t.trans_txt('E:\Code\GitHub\Python\python3.2\工作中用到的脚本\银行报文解析\ICBC\\ICBC2.txt',
-            'E:\Code\GitHub\Python\python3.2\工作中用到的脚本\银行报文解析\ICBC\\ICBC3.xml')
+t.trans_txt('E:\Code\GitHub\Python\python3.3\自己写着玩的小程序\SAX模块解析XML\\website.txt',
+            'E:\Code\GitHub\Python\python3.3\自己写着玩的小程序\SAX模块解析XML\\website2.xml')
